@@ -1,4 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+
+.font-elite {
+  font-family: "Special Elite", cursive;
+}
+
 /* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  max-width: 1000px !important;
+}

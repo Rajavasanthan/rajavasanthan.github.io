@@ -1,11 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-event',
+  templateUrl: './event.component.html',
+  styleUrls: ['./event.component.css']
 })
-export class HomeComponent {
+export class EventComponent {
+  @Input() id: string | undefined;
+  @Input() title: string | undefined;
+  @Input() subTitle: string | undefined;
+  @Input() summary: string | undefined;
+  @Input() imageUrl: string | undefined;
+  @Input() bannerImageUrl: string | undefined;
+  @Input() changePosition: boolean | undefined;
   eventJson = [
     {
       id: "1",

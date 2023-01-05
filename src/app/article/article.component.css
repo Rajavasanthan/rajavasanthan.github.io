@@ -1,0 +1,20 @@
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+blockquote:before {
+  content: "“";
+  left: -1rem;
+  top: -1rem;
+}
+
+blockquote:after {
+  content: "”";
+  right: -2rem;
+  bottom: 0rem;
+}
