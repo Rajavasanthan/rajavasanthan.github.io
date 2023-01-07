@@ -51,9 +51,9 @@ jobs:
         run: npm run prerender
         
       - name: Upload GitHub Pages artifact
-        uses: actions/deploy-pages@v1.2.3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: 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
+          folder: docs
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
