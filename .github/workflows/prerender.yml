@@ -49,6 +49,9 @@ jobs:
         
       - name: Execute Build Script
         run: npm run prerender
+        
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v1.2.3
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
