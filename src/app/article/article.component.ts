@@ -28,15 +28,15 @@ export class ArticleComponent {
         this.title.setTitle(article.title);
         this.meta.addTag({
           content: article.title,
-          name: 'og:title',
+          property: 'og:title',
         });
         this.meta.addTag({
           content: `https://${window.location.hostname}/${article.imageUrl}`,
-          name: 'og:image',
+          property: 'og:image',
         });
         this.meta.addTag({
           content: `${article.summary}`,
-          name: 'og:description',
+          property: 'og:description',
         });
       }
     });
