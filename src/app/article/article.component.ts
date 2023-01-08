@@ -31,7 +31,7 @@ export class ArticleComponent {
           name: 'og:title',
         });
         this.meta.addTag({
-          content: `${window.location.hostname}/${article.imageUrl}`,
+          content: `https://${window.location.hostname}/${article.imageUrl}`,
           name: 'og:image',
         });
         this.meta.addTag({
