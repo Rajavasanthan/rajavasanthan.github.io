@@ -31,12 +31,24 @@ export class ArticleComponent {
           property: 'og:title',
         });
         this.meta.addTag({
-          content: `https://${window.location.hostname}/${article.imageUrl}`,
+          content: `https://www.iamrv.pro/assets/images/pailagam.jpeg`,
           property: 'og:image',
         });
         this.meta.addTag({
-          content: `${article.summary}`,
-          property: 'og:description',
+          content: `https://www.iamrv.pro/assets/images/pailagam.jpeg`,
+          property: 'og:image:secure_url',
+        });
+        this.meta.addTag({
+          content: `image/jpeg`,
+          property: 'og:image:type',
+        });
+        this.meta.addTag({
+          content: `400`,
+          property: 'og:image:width',
+        });
+        this.meta.addTag({
+          content: `400`,
+          property: 'og:image:height',
         });
       }
     });
