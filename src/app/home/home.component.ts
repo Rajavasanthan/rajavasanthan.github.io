@@ -20,11 +20,11 @@ export class HomeComponent {
       property: 'og:title',
     });
     this.meta.addTag({
-      content: `https://www.iamrv.pro/assets/images/home-page.jpeg`,
+      content: `https://www.iamrv.pro/assets/images/home-page.png`,
       property: 'og:image',
     });
     this.meta.addTag({
-      content: `https://www.iamrv.pro/assets/images/home-page.jpeg`,
+      content: `https://www.iamrv.pro/assets/images/home-page.png`,
       property: 'og:image:secure_url',
     });
     this.meta.addTag({
