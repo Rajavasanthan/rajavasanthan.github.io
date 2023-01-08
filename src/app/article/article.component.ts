@@ -25,17 +25,17 @@ export class ArticleComponent {
       if (article.slug === this.articleSlug) {
         console.log(article);
         this.article = article;
-        this.title.setTitle(article.title);
+        this.title.setTitle(`${article.title} - Hello 👋 I am RV`);
         this.meta.addTag({
-          content: article.title,
+          content: `${article.title} - Hello 👋 I am RV`,
           property: 'og:title',
         });
         this.meta.addTag({
-          content: `https://www.iamrv.pro/assets/images/pailagam.jpeg`,
+          content: `https://${window.location.hostname}/${article.imageUrl}`,
           property: 'og:image',
         });
         this.meta.addTag({
-          content: `https://www.iamrv.pro/assets/images/pailagam.jpeg`,
+          content: `https://${window.location.hostname}/${article.imageUrl}`,
           property: 'og:image:secure_url',
         });
         this.meta.addTag({
