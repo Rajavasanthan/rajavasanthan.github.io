@@ -1,43 +1,49 @@
 <!-- *ngFor="let item of eventJson" -->
 <section class="text-gray-600 body-font">
-  <div class="container group mx-auto px-5 py-5 border-b-2 border-gray-200">
-    <a href="article/{{ id }}">
-      <div class="">
-        <h1
-          class="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900"
-        >
-          {{ title }}
-        </h1>
-        <h2
-          class="title-font sm:text-xl text-xl mb-4 font-medium text-gray-400"
-        >
-          {{ subTitle }}
-        </h2>
+  <div class="container px-5 py-5 mx-auto border-b-2 border-gray-200 group">
+    
+
+    <div class="">
+      <h1
+        class="mb-4 text-2xl font-medium text-gray-900 title-font sm:text-3xl"
+      >
+      <a href="article/{{ articleCardDetails.slug }}">
+        {{ articleCardDetails.title }}
+      </a>
+        
+      </h1>
+      <h2
+        class="mb-4 text-xl font-medium text-gray-400 title-font sm:text-xl"
+      >
+        {{ articleCardDetails.subTitle }}
+      </h2>
+    </div>
+    <div
+      class="flex items-center"
+      [ngClass]="articleCardDetails.changePosition ? 'flex-row-reverse' : 'flex-row'"
+    >
+      <div class="w-1/2 mb-10 md:mb-0">
+        <a href="article/{{ articleCardDetails.slug }}">
+          <img
+          class="object-cover object-center w-full rounded"
+          alt="hero"
+          src="{{ articleCardDetails.imageUrl }}"
+        />
+        </a>
+       
       </div>
       <div
-        class="flex items-center"
-        [ngClass]="changePosition ? 'flex-row-reverse' : 'flex-row'"
+        class="flex flex-col items-center w-1/2 text-center lg:flex-grow md:items-start md:text-left"
+        [ngClass]="
+        articleCardDetails.changePosition
+            ? 'lg:pr-24 lg:pl-0 md:pl-0 md:pr-16'
+            : 'lg:pl-24 md:pl-16'
+        "
       >
-        <div class="w-1/2 mb-10 md:mb-0">
-          <img
-            class="object-cover object-center rounded w-full"
-            alt="hero"
-            src="{{ imageUrl }}"
-          />
-        </div>
-        <div
-          class="lg:flex-grow w-1/2 flex flex-col md:items-start md:text-left items-center text-center"
-          [ngClass]="
-            changePosition
-              ? 'lg:pr-24 lg:pl-0 md:pl-0 md:pr-16'
-              : 'lg:pl-24 md:pl-16'
-          "
-        >
-          <p class="mb-8 leading-relaxed">
-            {{ summary }}
-          </p>
-        </div>
+        <p class="mb-8 leading-relaxed">
+          {{ articleCardDetails.summary }}
+        </p>
       </div>
-    </a>
+    </div>
   </div>
 </section>

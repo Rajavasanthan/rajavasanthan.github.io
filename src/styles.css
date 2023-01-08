@@ -12,3 +12,15 @@
 .container {
   max-width: 1000px !important;
 }
+
+h1 {
+  @apply py-4 text-3xl font-semibold;
+}
+
+h2 {
+  @apply mb-4 text-xl font-medium text-gray-400 sm:text-xl;
+}
+
+p {
+  @apply mb-8 leading-relaxed;
+}

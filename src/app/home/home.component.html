@@ -63,27 +63,14 @@
   <h2 class="pb-6 text-2xl font-semibold text-center">Founder of</h2>
   <div class="flex justify-around py-6 border-gray-200 border-y-2">
     <div class=""><img src="assets/images/Grids and Guides.png" alt="" /></div>
-    <div class=""><img src="assets/images/Each One Teach One.png" alt="" /></div>
+    <div class="">
+      <img src="assets/images/Each One Teach One.png" alt="" />
+    </div>
     <div class=""><img src="assets/images/Vaathiyar.ai.png" alt="" /></div>
   </div>
 </section>
 
 <app-event
-  [id]="'1'"
-  [title]="'First Event'"
-  [subTitle]="'First Event Sub Title'"
-  summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id   aspernatur sint nulla autem ducimus impedit in, consequatur reiciendis  non.Optio error nesciunt pariatur deserunt magni, aliquam iure blanditiis delectus voluptate, quibusdam explicabo, maiores odio! Repellat officiis sequi recusandae laudantium quos modi, dolore impedit vero eum tempora id delectus est quae aut nisi, veritatis eius ab pariatur magni, ad laboriosam.Maxime consequuntur eius placeat voluptate tempore veritatis vitae, corrupti assumenda harum nam voluptatem ratione ab, dolore suscipit hic reprehenderit saepe"
-  [imageUrl]="'https://dummyimage.com/350x300'"
-  [bannerImageUrl]="'https://dummyimage.com/1200x300'"
-  [changePosition]="false"
-></app-event>
-
-<app-event
-  [id]="'2'"
-  [title]="'Second Event'"
-  [subTitle]="'Second Event Sub Title'"
-  summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id   aspernatur sint nulla autem ducimus impedit in, consequatur reiciendis  non.Optio error nesciunt pariatur deserunt magni, aliquam iure blanditiis delectus voluptate, quibusdam explicabo, maiores odio! Repellat officiis sequi recusandae laudantium quos modi, dolore impedit vero eum tempora id delectus est quae aut nisi, veritatis eius ab pariatur magni, ad laboriosam.Maxime consequuntur eius placeat voluptate tempore veritatis vitae, corrupti assumenda harum nam voluptatem ratione ab, dolore suscipit hic reprehenderit saepe"
-  [imageUrl]="'https://dummyimage.com/350x300'"
-  [bannerImageUrl]="'https://dummyimage.com/1200x300'"
-  [changePosition]="true"
+  *ngFor="let event of eventJson;let i = index"
+  [articleCardDetails]="event"
 ></app-event>

@@ -2,7 +2,7 @@
   <div class="w-full">
     <div class="h-80">
       <img
-        src="{{ activeArticle.bannerImageUrl }}"
+        src="{{ article.bannerImageUrl }}"
         alt=""
         class="w-full h-full"
       />
@@ -11,40 +11,15 @@
 </div>
 
 <div class="container mx-auto">
-  <h1 class="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
-    {{ activeArticle.title }}
-  </h1>
-  <h2 class="title-font sm:text-2xl text-xl mb-4 font-medium text-gray-900">
-    {{ activeArticle.subTitle }}
-  </h2>
-</div>
-<div
-  class="container mx-auto flex md:flex-row flex-col items-center group-even:flex-row-reverse"
->
-  <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-    <img
-      class="object-cover object-center rounded"
-      alt="hero"
-      src="{{ activeArticle.imageUrl }}"
-    />
-  </div>
-  <div
-    class="lg:flex-grow md:w-1/2 lg:pl-24 lg:group-even:pr-24 lg:group-even:pl-0 md:pl-16 md:group-even:pr-16 md:group-even:pl-0 flex flex-col md:items-start md:text-left items-center text-center"
-  >
-    <p class="mb-8 leading-relaxed">
-      {{ activeArticle.summary }}
-    </p>
-  </div>
-</div>
-
-<div class="container mx-auto">
-  <blockquote class="font-elite relative inline-block text-xl">
+  <markdown ngPreserveWhitespaces
+  [src]="article.markDownFile"></markdown>
+  <!-- <blockquote class="relative inline-block text-xl font-elite">
     The man who comes back through the door in the wall will never be quite the
     same as the man who went out.
   </blockquote>
-  <ul class="list-inside list-disc">
+  <ul class="list-disc list-inside">
     <li>Buck rivets</li>
     <li>Olympic rivets</li>
     <li>Pop rivets</li>
-  </ul>
+  </ul> -->
 </div>
