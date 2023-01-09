@@ -31,11 +31,11 @@ export class ArticleComponent {
           property: 'og:title',
         });
         this.meta.addTag({
-          content: `https://${window.location.hostname}/${article.imageUrl}`,
+          content: `https://www.iamrv.pro/${article.imageUrl}`,
           property: 'og:image',
         });
         this.meta.addTag({
-          content: `https://${window.location.hostname}/${article.imageUrl}`,
+          content: `https://www.iamrv.pro/${article.imageUrl}`,
           property: 'og:image:secure_url',
         });
         this.meta.addTag({
