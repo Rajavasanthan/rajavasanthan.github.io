@@ -6,5 +6,6 @@ export interface Article {
     imageUrl: string,
     bannerImageUrl : string,
     changePosition? : Boolean,
-    markDownFile : string
+    markDownFile : string,
+    date : Date
 }

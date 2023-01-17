@@ -6,8 +6,12 @@ import { Article } from './Model/model';
   providedIn: 'root'
 })
 export class ArticleService {
-  eventJson:Article[] = articles
-  constructor() { }
+  eventJson!:Article[]
+  constructor() { 
+    this.eventJson = articles.sort((a, b) => {
+      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    })
+  }
 
 
 }
