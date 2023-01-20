@@ -1,5 +1,15 @@
 export const articles = [
     {
+      slug : "my-experience-with-stable-diffusion-and-how-it-transformed-my-images",
+      title: "My Experience with Stable Diffusion and How it Transformed My Images",
+      subTitle: "Jan 20 2023",
+      summary: `In this article, I share my experience using a stable diffusion AI model to create a new and different look for myself. I explain how the model works and how easy it was for me to use, thanks to the guidance provided by my brother Dhuriyothanan. I also highlight the benefits of using stable diffusion, such as its ability to create natural and flattering poses, spot-on lighting, and the ability to experiment with different looks and styles. Overall, this article is a personal account of how I used the stable diffusion AI model to enhance my images and how it can be a powerful tool for anyone who wants to experiment with their own photos.`,
+      imageUrl: "assets/images/my-experience-with-stable-diffusion-and-how-it-transformed-my-images.png",
+      bannerImageUrl: "assets/images/1200x300.png",
+      markDownFile : "assets/markdowns/my-experience-with-stable-diffusion-and-how-it-transformed-my-images.md",
+      date: new Date("Jan 20 2023")
+    },
+    {
       slug : "old-it-dood-learning-has-no-limits",
       title: "Old IT Dood (Learning has no limits)",
       subTitle: "Jun 14 2022",
