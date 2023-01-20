@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ArticleService } from '../article.service';
 import { Article } from '../Model/model';
 
@@ -17,7 +17,8 @@ export class ArticleComponent {
     private activeRouter: ActivatedRoute,
     private articleService: ArticleService,
     private title: Title,
-    private meta: Meta
+    private meta: Meta,
+    private router: Router
   ) {
     this.articleSlug = this.activeRouter.snapshot.params['id'];
 
@@ -52,5 +53,9 @@ export class ArticleComponent {
         });
       }
     });
+  }
+
+  backToHome() {
+    this.router.navigateByUrl('');
   }
 }

@@ -18,3 +18,39 @@ blockquote:after {
   right: -2rem;
   bottom: 0rem;
 }
+
+.article-banner {
+  background-image: url("../../assets/images/bg-img.jpg");
+}
+
+.article-content {
+  color: #ffffff;
+}
+
+.redirect-menu {
+  padding: 1rem 0 1rem 0;
+  color: #151413;
+  font-weight: 600;
+}
+
+.redirect-menu .home {
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.redirect-menu .home:hover {
+  opacity: 0.6;
+}
+
+.redirect-menu .slash-symbol {
+  padding: 0 3px;
+}
+
+.redirect-menu .slug-name {
+  opacity: 0.6;
+}
+
+.icon img {
+  width: 32px;
+  cursor: pointer;
+}

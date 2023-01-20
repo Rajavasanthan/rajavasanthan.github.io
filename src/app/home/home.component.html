@@ -1,7 +1,7 @@
 <!-- <h3> <a routerLink="/article/two-days-workshop-in-pailagam">Article 1 </a></h3> -->
 <!-- <h3><a routerLink='/article/vaathiyar-ai-got-incubation-in-iit-madras'>Article 2</a></h3> -->
 
-<section class="container px-5 pt-10 pb-10 mx-auto">
+<section class="container px-5 pt-6 pb-6 mx-auto">
   <img
     src="assets/images/profile-icon.png"
     class="w-16 border-blue-200 rounded-full"
@@ -16,14 +16,16 @@
         alt="" /></span
     >I am <span class="text-4xl">RV</span>
   </h1>
-  <h2 class="text-md">- Tech Enthusiast, Entreprenur, Mentor</h2>
+  <p class="text-md font-semibold text-gray-400 mb-0">
+    - Tech Enthusiast, Entreprenur, Mentor
+  </p>
 </section>
 
 <section class="text-gray-600 body-font">
   <div
-    class="container flex flex-col items-center px-5 pb-10 mx-auto md:flex-row"
+    class="container flex flex-col items-center px-5 pb-6 mx-auto md:flex-row"
   >
-    <div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
+    <div class="w-full mb-6 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
       <img
         class="object-cover object-center rounded"
         alt="hero"
@@ -31,25 +33,25 @@
       />
     </div>
     <div
-      class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left"
+      class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 md:pl-16 md:items-start md:text-left"
     >
-      <p class="mb-8 leading-relaxed">
+      <p class="mb-4 leading-relaxed">
         As a passionate technology geek and mentor, I have a strong interest in
         film making and 3D animation. In my daily life, I interact with a
         diverse group of students and am always looking for ways to share my
         knowledge and experience with others.
       </p>
-      <p class="mb-8 leading-relaxed">
+      <p class="mb-4 leading-relaxed">
         In addition to my work as a mentor, I am also the founder of a company
         called Grids and Guides, which is dedicated to helping people leverage
         technology in innovative and meaningful ways.
       </p>
-      <p class="mb-8 leading-relaxed">
+      <p class="mb-4 leading-relaxed">
         I am also the creator of a community called Each One Teach One, which is
         focused on building a network of individuals who are committed to
         sharing their skills and expertise with one another.
       </p>
-      <p class="mb-8 leading-relaxed">
+      <p class="mb-0 leading-relaxed">
         Overall, I am driven by a desire to constantly learn, grow, and make a
         positive impact on the world through my work in technology and film. I
         am always looking for new opportunities to collaborate with others and
@@ -59,18 +61,18 @@
   </div>
 </section>
 
-<section class="container px-5 pb-10 mx-auto">
-  <h2 class="pb-6 text-2xl font-semibold text-center">Founder of</h2>
-  <div class="flex justify-around py-6 border-gray-200 border-y-2">
-    <div class=""><img src="assets/images/Grids and Guides.png" alt="" /></div>
+<section class="container px-5 pb-2 mx-auto">
+  <h2 class="pb-6 text-2xl font-semibold text-center mb-0">Founder of</h2>
+  <div class="flex justify-around py-4 border-gray-200 border-y-2">
+    <div class=""><img src="assets/images/GridsandGuides.png" alt="" /></div>
     <div class="">
-      <img src="assets/images/Each One Teach One.png" alt="" />
+      <img src="assets/images/EachOneTeachOne.png" alt="" />
     </div>
     <div class=""><img src="assets/images/Vaathiyar.ai.png" alt="" /></div>
   </div>
 </section>
 
 <app-event
-  *ngFor="let event of eventJson;let i = index"
+  *ngFor="let event of eventJson; let i = index"
   [articleCardDetails]="event"
 ></app-event>

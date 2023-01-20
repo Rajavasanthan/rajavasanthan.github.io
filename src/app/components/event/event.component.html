@@ -1,41 +1,39 @@
 <!-- *ngFor="let item of eventJson" -->
 <section class="text-gray-600 body-font">
-  <div class="container px-5 py-5 mx-auto border-b-2 border-gray-200 group">
-    
-
+  <div class="container px-5 mx-auto border-b-2 border-gray-200 group sm:pb-6">
     <div class="">
       <h1
-        class="mb-4 text-2xl font-medium text-gray-900 title-font sm:text-3xl"
+        class="my-4 text-xl font-medium text-gray-900 title-font sm:text-3xl p-0"
       >
-      <a href="article/{{ articleCardDetails.slug }}">
-        {{ articleCardDetails.title }}
-      </a>
-        
+        <a href="article/{{ articleCardDetails.slug }}">
+          {{ articleCardDetails.title }}
+        </a>
       </h1>
-      <h2
-        class="mb-4 text-xl font-medium text-gray-400 title-font sm:text-xl"
-      >
+      <h2 class="mb-4 text-lg font-medium text-gray-400 title-font sm:text-xl">
         {{ articleCardDetails.date | date }}
       </h2>
     </div>
     <div
       class="flex items-center"
-      [ngClass]="articleCardDetails.changePosition ? 'flex-row-reverse' : 'flex-row'"
+      [ngClass]="
+        articleCardDetails.changePosition
+          ? 'flex-col-reverse sm:flex-row-reverse'
+          : 'flex-col sm:flex-row'
+      "
     >
-      <div class="w-1/2 mb-10 md:mb-0">
+      <div class="w-full mb-6 md:mb-0">
         <a href="article/{{ articleCardDetails.slug }}">
           <img
-          class="object-cover object-center w-full rounded"
-          alt="hero"
-          src="{{ articleCardDetails.imageUrl }}"
-        />
+            class="object-cover object-center w-full rounded"
+            alt="hero"
+            src="{{ articleCardDetails.imageUrl }}"
+          />
         </a>
-       
       </div>
       <div
-        class="flex flex-col items-center w-1/2 text-center lg:flex-grow md:items-start md:text-left"
+        class="flex flex-col items-center w-full lg:flex-grow md:items-start md:text-left"
         [ngClass]="
-        articleCardDetails.changePosition
+          articleCardDetails.changePosition
             ? 'lg:pr-24 lg:pl-0 md:pl-0 md:pr-16'
             : 'lg:pl-24 md:pl-16'
         "

@@ -1,16 +1,45 @@
 <div class="">
-  <div class="w-full">
-    <div class="h-80">
-      <img
-        src="{{ article.bannerImageUrl }}"
-        alt=""
-        class="w-full h-full"
-      />
+  <div class="w-full article-banner">
+    <div class="h-80 container mx-auto article-content p-5">
+      <div
+        class="flex flex-col sm:flex-row justify-center sm:justify-start items-center h-full"
+      >
+        <div class="sm:mr-16 flex justify-center">
+          <img src="assets/images/rv-img.jpg" alt="" class="w-1/2 sm:w-full" />
+        </div>
+        <div class="text-center sm:text-left">
+          <h1 class="font-bold">I am RV</h1>
+          <p class="text-md font-semibold text-white mb-0">
+            - Tech Enthusiast, Entreprenur, Mentor
+          </p>
+          <div class="flex justify-center sm:justify-start mt-4">
+            <span class="icon github mr-3">
+              <a href="https://github.com/Rajavasanthan" target="_blank"
+                ><img src="assets/images/github.svg" alt=""
+              /></a>
+            </span>
+            <span class="icon linkedin">
+              <a
+                href="https://www.linkedin.com/in/rajavasanthan-rv-4748a932/"
+                target="_blank"
+              >
+                <img src="assets/images/linkedin.svg" alt="" />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div style="padding: 10px;" class="container mx-auto">
-  <markdown ngPreserveWhitespaces
-  [src]="article.markDownFile"></markdown>
+<div class="container mx-auto px-5">
+  <div class="">
+    <div class="redirect-menu">
+      <span class="home" (click)="backToHome()">Home</span>
+      <span class="slash-symbol">/</span>
+      <span class="slug-name">{{ articleSlug }}</span>
+    </div>
+  </div>
+  <markdown ngPreserveWhitespaces [src]="article.markDownFile"></markdown>
 </div>
