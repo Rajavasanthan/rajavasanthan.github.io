@@ -1,3 +1,4 @@
 /article/two-days-workshop-in-payilagam
 /article/vaathiyar-ai-got-incubation-in-iit-madras
 /article/old-it-dood-learning-has-no-limits
+/article/my-experience-with-stable-diffusion-and-how-it-transformed-my-images
