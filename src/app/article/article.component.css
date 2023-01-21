@@ -28,14 +28,20 @@ blockquote:after {
 }
 
 .redirect-menu {
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 0 0;
   color: #151413;
   font-weight: 600;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
 }
 
 .redirect-menu .home {
   cursor: pointer;
   transition: opacity 0.5s;
+  font-size: 14px;
+  color: #38bdf8;
 }
 
 .redirect-menu .home:hover {
@@ -44,10 +50,12 @@ blockquote:after {
 
 .redirect-menu .slash-symbol {
   padding: 0 3px;
+  color: #38bdf8;
 }
 
 .redirect-menu .slug-name {
   opacity: 0.6;
+  font-size: 14px;
 }
 
 .icon img {

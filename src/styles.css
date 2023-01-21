@@ -24,3 +24,11 @@ h2 {
 p {
   @apply mb-8 leading-relaxed;
 }
+
+markdown img {
+  width: 100%;
+
+  @media (max-width: 640px) {
+    width: 75%;
+  }
+}
