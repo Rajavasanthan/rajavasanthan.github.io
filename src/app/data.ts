@@ -28,15 +28,5 @@ export const articles = [
       bannerImageUrl: "assets/images/1200x300.png",
       markDownFile : "assets/markdowns/two-days-workshop-in-payilagam.md",
       date: new Date("Jun 17 2022")
-    },
-    {
-      slug : "vaathiyar-ai-got-incubation-in-iit-madras",
-      title: "Vaathiyar AI got incubation in IIT Madras",
-      subTitle: "Nov 2 2023",
-      summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id   aspernatur sint nulla autem ducimus impedit in, consequatur reiciendis  non.Optio error nesciunt pariatur deserunt magni, aliquam iure blanditiis delectus voluptate, quibusdam explicabo, maiores odio! Repellat officiis sequi recusandae laudantium quos modi, dolore impedit vero eum tempora id delectus est quae aut nisi, veritatis eius ab pariatur magni, ad laboriosam.Maxime consequuntur eius placeat voluptate tempore veritatis vitae, corrupti assumenda harum nam voluptatem ratione ab, dolore suscipit hic reprehenderit saepe",
-      imageUrl: "https://dummyimage.com/350x300",
-      bannerImageUrl: "/assets/images/1200x300.png",
-      markDownFile : "assets/markdowns/vaathiyar-ai-got-incubation-in-iit-madras.md",
-      date: new Date("Jun 16 2022")
     }
   ]
