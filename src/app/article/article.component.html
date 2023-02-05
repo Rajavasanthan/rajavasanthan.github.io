@@ -1,19 +1,19 @@
 <div class="">
   <div class="w-full article-banner">
-    <div class="h-80 container mx-auto article-content p-5">
+    <div class="container p-5 mx-auto h-80 article-content">
       <div
-        class="flex flex-col sm:flex-row justify-center sm:justify-start items-center h-full"
+        class="flex flex-col items-center justify-center h-full sm:flex-row sm:justify-start"
       >
-        <div class="sm:mr-16 flex justify-center">
+        <div class="flex justify-center sm:mr-16">
           <img src="assets/images/rv-img.jpg" alt="" class="w-1/2 sm:w-full" />
         </div>
         <div class="text-center sm:text-left">
           <h1 class="font-bold">I am RV</h1>
-          <p class="text-md font-semibold text-white mb-0">
+          <p class="mb-0 font-semibold text-white text-md">
             - Tech Enthusiast, Entreprenur, Mentor
           </p>
-          <div class="flex justify-center sm:justify-start mt-4">
-            <span class="icon github mr-3">
+          <div class="flex justify-center mt-4 sm:justify-start">
+            <span class="mr-3 icon github">
               <a href="https://github.com/Rajavasanthan" target="_blank"
                 ><img src="assets/images/github.svg" alt=""
               /></a>
@@ -33,12 +33,12 @@
   </div>
 </div>
 
-<div class="container mx-auto px-5">
+<div class="container px-5 mx-auto">
   <div class="">
     <div class="redirect-menu">
       <span class="home" (click)="backToHome()">Home</span>
       <span class="slash-symbol">/</span>
-      <span class="slug-name">{{ articleSlug }}</span>
+      <span class="slug-name">{{ article.title }}</span>
     </div>
   </div>
   <markdown ngPreserveWhitespaces [src]="article.markDownFile"></markdown>
