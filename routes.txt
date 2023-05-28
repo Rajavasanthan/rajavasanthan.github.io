@@ -2,3 +2,5 @@
 /article/old-it-dood-learning-has-no-limits
 /article/my-experience-with-stable-diffusion-and-how-it-transformed-my-images
 /article/google-developers-student-club-organizes-tech-event-vit-chennai-campus
+/article/breaking-barriers-arun-kumars-visionary-journey-visually-challenged-ml-expert
+/article/ai-good-bad-funny

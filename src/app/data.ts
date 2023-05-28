@@ -1,5 +1,34 @@
 export const articles = [
   {
+    slug: 'ai-good-bad-funny',
+    title:
+      `AI the Good the Bad and the Funny`,
+    subTitle: 'May 27th 2023',
+    summary: `Discover the captivating world of Artificial Intelligence (AI) through the immersive event, "AI: The Good, The Bad, and the Funny." Held on May 27th, 2023, this event provided a unique opportunity to delve into the upcoming advantages and disadvantages of AI technology.
+
+    From the very beginning, the event sparked curiosity and intrigue as the host set the stage, introducing the audience to an agenda filled with informative presentations and interactive sessions. Attendees were taken on a journey through the evolution of AI, from its humble beginnings to the remarkable advancements we witness today.`,
+    imageUrl:
+      'assets/images/ai-good-bad-funny.jpg',
+    bannerImageUrl: 'assets/images/1200x300.png',
+    markDownFile:
+      'assets/markdowns/ai-good-bad-funny.md',
+    date: new Date('May 27 2023'),
+  },
+  {
+    slug: 'breaking-barriers-arun-kumars-visionary-journey-visually-challenged-ml-expert',
+    title:
+      `Breaking Barriers: Arun Kumar's Visionary Journey as a Visually Challenged ML Expert`,
+    subTitle: 'May 27th 2023',
+    summary: `"Unveiling the Extraordinary: How a Visually Challenged ML Expert Redefined Boundaries"
+    Discover the remarkable story of Arun Kumar, a visually challenged senior software engineer and machine learning expert, as he defies limitations and showcases his incredible knowledge and expertise. With the aid of specialized software, Arun mesmerizes audiences by demonstrating the power of Open Source Hugging Face Models and their applications in the world of QA and NLP. Prepare to be inspired as you delve into this extraordinary journey of determination and technological innovation, breaking barriers and reshaping perceptions along the way. Click to uncover the awe-inspiring accomplishments of Arun Kumar and witness the true potential of accessibility in the tech industry.`,
+    imageUrl:
+      'assets/images/breaking-barriers-arun-kumars-visionary-journey-visually-challenged-ml-expert.jpg',
+    bannerImageUrl: 'assets/images/1200x300.png',
+    markDownFile:
+      'assets/markdowns/breaking-barriers-arun-kumars-visionary-journey-visually-challenged-ml-expert.md',
+    date: new Date('May 27 2023'),
+  },
+  {
     slug: 'google-developers-student-club-organizes-tech-event-vit-chennai-campus',
     title:
       'Google Developers Student Club Organizes Tech Event in VIT Chennai Campus',
