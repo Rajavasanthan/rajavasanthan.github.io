@@ -74,4 +74,14 @@ export const articles = [
     markDownFile: 'assets/markdowns/two-days-workshop-in-payilagam.md',
     date: new Date('Jun 17 2022'),
   },
+  {
+    slug: 'impact-of-ai-in-medical-domain-priyadharshni-dental-college-and-hospital',
+    title: 'Impact of AI in medical domain - Priyadharshni Dental College and Hospital',
+    subTitle: 'July 27 2023',
+    summary: `The world of healthcare is undergoing a transformative revolution, driven by the incredible power of artificial intelligence (AI). Recently, I had the privilege of delivering a seminar on the "Impact of Artificial Intelligence in Healthcare" at Priyadharshni College of Dental College and Hospital. The seminar was met with immense enthusiasm from both students and faculty members, who were eager to learn how AI is poised to reshape their careers and the field of dentistry as a whole.`,
+    imageUrl: 'assets/images/thumb1Artboard.jpg',
+    bannerImageUrl: 'assets/images/thumb1Artboard.jpeg',
+    markDownFile: 'assets/markdowns/impact-of-ai-in-medical-domain-priyadharshni-dental-college-and-hospital.md',
+    date: new Date('July 27 2023'),
+  },
 ];
