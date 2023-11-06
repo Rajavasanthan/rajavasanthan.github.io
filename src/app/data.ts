@@ -84,4 +84,14 @@ export const articles = [
     markDownFile: 'assets/markdowns/impact-of-ai-in-medical-domain-priyadharshni-dental-college-and-hospital.md',
     date: new Date('July 27 2023'),
   },
+  {
+    slug: 'vaathiyar-ai-awarded-best-idea-idea-pattarai-workshop-ceo-suresh-sambandam-kiss-flow',
+    title: 'Vaathiyar.ai: Awarded "Best Idea" at Idea Pattarai Workshop by CEO Suresh Sambandam of Kiss Flow',
+    subTitle: 'Nov 04 2023',
+    summary: `Vaathiyar.ai, a pioneering startup with a vision to make quality education accessible to all using artificial intelligence, recently clinched the coveted "Best Idea" award at the Idea Pattrai Workshop hosted by Mr. Suresh Sambandam, CEO of Kiss Flow. Their innovative approach to personalized learning and educational transformation stood out in a diverse lineup of startups, and this recognition serves as a testament to the power of collaboration, mentorship, and the potential of visionary ideas to create a brighter future for education.`,
+    imageUrl: 'assets/images/2X5A9424.jpg',
+    bannerImageUrl: 'assets/images/2X5A9424.jpg',
+    markDownFile: 'assets/markdowns/vaathiyar-ai-awarded-best-idea-idea-pattarai-workshop-ceo-suresh-sambandam-kiss-flow.md',
+    date: new Date('November 04 2023'),
+  },
 ];
