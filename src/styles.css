@@ -25,6 +25,10 @@ p {
   @apply mb-8 leading-relaxed;
 }
 
+a {
+  @apply text-blue-700
+}
+
 markdown img {
   width: 100%;
 
