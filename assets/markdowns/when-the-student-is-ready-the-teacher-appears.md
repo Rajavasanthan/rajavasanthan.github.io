@@ -2,7 +2,7 @@
 
 ![gen_ai_class_group_photo.jpg](assets/images/gen_ai_class_group_photo.jpg)
 
-One of my famous quote about education is “When the student is ready, the teacher appears”, I was trying to learn machine learning for long days I want to go deep into maths of gen ai and ML but it’s not possible through self study I was looking for a good mentor that time [Mr.Sudarsun Santhiappan](https://www.linkedin.com/in/sudarsun/) appeared in front of me.
+One of my favorite quotes about education is, "When the student is ready, the teacher appears." For a long time, I struggled to delve deeply into the mathematics of generative AI and machine learning through self-study. Just when I needed a mentor the most, [Mr.Sudarsun Santhiappan](https://www.linkedin.com/in/sudarsun/) appeared in my life.
 
 it’s May 3rd 2024 morning 6am I was in a dialama to wether should I go and attend a Meetup happening in Chennai or not. I know the speaker is a famous person I was following him on social media quite a longe time. I saw his post in social media about the class he is going to take about Generative AI and Fundamental of Machine learning. I sent a mail regarding my interest to attend the session. He welcomed me but the important part is I have not received the exact location till that morning 6am.
 
