@@ -42,7 +42,9 @@ After this session, my perspective on Mathematics has completely changed. During
 
 I don’t like to take selfies even with celebrities. But first time I my self went forward and asked Sudarsun can I have a selfi with you? The amount of knowledge and he delivers and the style and way he takes the class is most adorable.
 
-He also talks about making knowledge free for all. People who follows me in social media knows about my Vision about Education i started Each one Teach one has Non Profitable community to share knowledge, If you and your friend has 1 rupee each other and if you both exchange it finally you will have same 1 Rupee with each. But you and your friend have 1 knowldge/idea and if you both share it finally you both will 2 knowledge/idea or some time more than that. I am true beliver of this statement. i was happy that [Mr.Sudarsun Santhiappan](https://www.linkedin.com/in/sudarsun/) also shared this same thought and his vision to make the knowledge free and give access to all. I promised him that i will also join to his vision and make this happen.
+He also discusses the importance of making knowledge accessible to all. Those who follow me on social media are aware of my vision for education, which I initiated through the "Each One Teach One" nonprofit community aimed at sharing knowledge. I often illustrate the concept with a simple analogy: If you and a friend each have one rupee and you exchange them, you still end up with one rupee each. However, if you and your friend each possess one piece of knowledge or idea and you share them, you both end up with two or more ideas. I strongly believe in this notion.
+
+I was delighted to learn that Mr. Sudharshan shares the same belief and envisions a world where knowledge is freely accessible to all. I assured him of my commitment to joining his vision and contributing to its realization.
 
 ![sudharshan_selfi.jpg](assets/images/sudharshan_selfi.jpg)
 
