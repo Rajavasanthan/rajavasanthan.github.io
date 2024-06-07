@@ -36,7 +36,7 @@ We began by exploring the differences between BERT and GPT, specifically focusin
 
 ## Some WOOOW moments.
 
-This 4 Week session for a knowledgable and the topics covered are equal to IIT sylabus. The important point to note is [Mr.Sudarsun Santhiappan](https://www.linkedin.com/in/sudarsun/) gave this has a free course. I have seen many online free course but no one would put their valuable time to take 50 hours of offline course for free.
+This four-week session offers a comprehensive coverage of topics equivalent to the IIT syllabus, tailored for knowledgeable individuals. What sets it apart is that it's being generously offered as a free course by [Mr.Sudarsun Santhiappan](https://www.linkedin.com/in/sudarsun/). While there are numerous online free courses available, it's rare to find someone willing to invest their time and expertise in delivering a 50-hour offline course at no cost.
 
 After this session, my perspective on Mathematics has completely changed. During my school and college days, I used to say, "Whoever invented math, if I find him, I will kill him." But after this class, my statement has changed to, "The people who discovered mathematics are such geniuses.” [Mr.Sudarsun Santhiappan](https://www.linkedin.com/in/sudarsun/) made me fell in love with maths.
 
