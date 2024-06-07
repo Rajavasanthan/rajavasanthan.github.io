@@ -94,15 +94,26 @@ export const articles = [
       'assets/markdowns/vaathiyar-ai-awarded-best-idea-idea-pattarai-workshop-ceo-suresh-sambandam-kiss-flow.md',
     date: new Date('November 04 2023'),
   },
+  // {
+  //   slug: 'reflections-young-man-choice-profession-summarisation',
+  //   title: 'காரல்மார்க்ஸின் கட்டுரை - அனுபவமும் உண்மையும்',
+  //   subTitle: 'Jan 18 2024',
+  //   summary: `இளம் மார்க்ஸ், தொழில் தேர்வு என்பது வெறுமனே பொருள் ஈட்டுவதோ, தனிப்பட்ட லாபமோ அல்ல, உலக நன்மைக்கும் தனிமனித மேன்மைக்கும் உதவும் ஒன்றாக இருக்க வேண்டும் என்று வாதிடுகிறார். எந்தவொரு தொழிலையும் தேர்ந்தெடுப்பதற்கு முன், அது நமது திறன்களுக்கும் இயல்புகளுக்கும் பொருத்தமாக இருக்கிறதா என்று ஆராய்வது முக்கியம். உடல்நலமும் திறமையும் ஒத்துப்போகாத தொழிலைத் தேர்ந்தெடுத்தால், அது துன்பத்தையும் தோல்வியையும் தரும்.`,
+  //   imageUrl: 'assets/images/karl.jpg',
+  //   bannerImageUrl: 'assets/images/karl.jpg',
+  //   markDownFile:
+  //     'assets/markdowns/reflections-young-man-choice-profession-summarisation.md',
+  //   date: new Date('January 18 2024'),
+  // },
   {
-    slug: 'reflections-young-man-choice-profession-summarisation',
-    title: 'காரல்மார்க்ஸின் கட்டுரை - அனுபவமும் உண்மையும்',
-    subTitle: 'Jan 18 2024',
-    summary: `இளம் மார்க்ஸ், தொழில் தேர்வு என்பது வெறுமனே பொருள் ஈட்டுவதோ, தனிப்பட்ட லாபமோ அல்ல, உலக நன்மைக்கும் தனிமனித மேன்மைக்கும் உதவும் ஒன்றாக இருக்க வேண்டும் என்று வாதிடுகிறார். எந்தவொரு தொழிலையும் தேர்ந்தெடுப்பதற்கு முன், அது நமது திறன்களுக்கும் இயல்புகளுக்கும் பொருத்தமாக இருக்கிறதா என்று ஆராய்வது முக்கியம். உடல்நலமும் திறமையும் ஒத்துப்போகாத தொழிலைத் தேர்ந்தெடுத்தால், அது துன்பத்தையும் தோல்வியையும் தரும்.`,
-    imageUrl: 'assets/images/karl.jpg',
-    bannerImageUrl: 'assets/images/karl.jpg',
+    slug: 'when-the-student-is-ready-the-teacher-appears',
+    title: 'When the student is ready, the teacher appears.',
+    subTitle: 'Jun 7 2024',
+    summary: `On May 3, 2024, you were contemplating whether to attend a Meetup in Chennai, featuring Mr. Sudharsan, a speaker you admired and followed on social media. He was set to discuss Generative AI and Machine Learning fundamentals, and you had expressed your interest via email. However, by 6 am that morning, you hadn't received the event location. Trusting your intuition, you searched for the venue but couldn't find it, leaving you discouraged.`,
+    imageUrl: 'assets/images/sudharshan_vasanth.jpg',
+    bannerImageUrl: 'assets/images/karl.jpeg',
     markDownFile:
-      'assets/markdowns/reflections-young-man-choice-profession-summarisation.md',
+      'assets/markdowns/when-the-student-is-ready-the-teacher-appears.md',
     date: new Date('January 18 2024'),
   },
 ];

@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  @apply mb-4 text-xl font-medium text-gray-400 sm:text-xl;
+  @apply mb-4 text-xl font-bold text-black sm:text-xl;
 }
 
 p {
