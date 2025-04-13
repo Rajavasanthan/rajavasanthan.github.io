@@ -116,4 +116,15 @@ export const articles = [
       'assets/markdowns/when-the-student-is-ready-the-teacher-appears.md',
     date: new Date('January 18 2024'),
   },
+  {
+    slug: 'how-to-use-ai-in-your-daily-life',
+    title: 'How to use AI in your Daily Life?',
+    subTitle: 'Apr 13 2025',
+    summary: `Are you using AI too much... or not enough? This simple three-question framework will transform how you think about AI tools in your daily life. Stop second-guessing and start making intentional decisions about when AI truly serves your goals.`,
+    imageUrl: 'assets/images/mybots.jpg',
+    bannerImageUrl: 'assets/images/mybots.jpeg',
+    markDownFile:
+      'assets/markdowns/how-to-use-ai-in-your-daily-life.md',
+    date: new Date('April 13 2025'),
+  },
 ];
