@@ -1,13 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+/* @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 .font-elite {
   font-family: "Special Elite", cursive;
+} */
+
+@font-face {
+  font-family: 'TestTiemposFine';
+  src: url('assets/fonts/TestTiemposFine-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 /* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'TestTiemposFine', sans-serif;
+  word-spacing: 0.20em;
+  letter-spacing: 0.05em;
+}
 
 .container {
   max-width: 1000px !important;
@@ -70,8 +84,9 @@ tr:hover {
   table {
     @apply text-sm;
   }
-  
-  th, td {
+
+  th,
+  td {
     @apply px-1 py-1;
   }
 }
