@@ -1,13 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+/* @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 .font-elite {
   font-family: "Special Elite", cursive;
+} */
+
+@font-face {
+  font-family: 'TestTiemposFine';
+  src: url('assets/fonts/TestTiemposFine-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 /* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'TestTiemposFine', sans-serif;
+  word-spacing: 0.20em;
+  letter-spacing: 0.05em;
+}
 
 .container {
   max-width: 1000px !important;
@@ -27,6 +41,54 @@ p {
 
 a {
   @apply text-blue-700
+}
+
+ol {
+  @apply list-decimal pl-6 space-y-4 mb-6;
+}
+
+ul {
+  @apply list-disc pl-6 space-y-4 mb-6 mt-4;
+}
+
+li {
+  @apply text-gray-800 font-medium;
+}
+
+table {
+  @apply w-full table-auto border mb-6 overflow-x-auto;
+}
+
+thead {
+  @apply bg-gray-100;
+}
+
+th {
+  @apply text-left px-2 py-2 sm:px-4 font-semibold text-gray-700 border-b text-sm sm:text-base;
+}
+
+tbody tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+td {
+  @apply px-2 py-2 sm:px-4 border-b text-gray-800 text-sm sm:text-base;
+}
+
+tr:hover {
+  @apply bg-gray-100;
+}
+
+/* For very small screens */
+@media (max-width: 640px) {
+  table {
+    @apply text-sm;
+  }
+
+  th,
+  td {
+    @apply px-1 py-1;
+  }
 }
 
 markdown img {
