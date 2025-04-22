@@ -15,7 +15,7 @@ What we need is a simple, practical framework to guide our decisions about when 
 
 The FLD (Fix, Learn, Do) Framework provides a straightforward approach to deciding when AI is appropriate for your tasks. It centers around three fundamental questions you should ask yourself before turning to an AI assistant:
 
-1. **Fix (F)**: Do you need to fix something if it goes wrong?
+1. **Fix (F)**: Do you know how to fix that if it goes wrong?
 2. **Learn (L)**: Do you want to learn how this works while doing it?
 3. **Do (D)**: Do you just need to complete the job regardless of how it works?
 
