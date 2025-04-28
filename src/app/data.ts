@@ -127,4 +127,17 @@ export const articles = [
       'assets/markdowns/how-to-use-ai-in-your-daily-life.md',
     date: new Date('April 13 2025'),
   },
+  {
+    slug: 'art-without-emotions-is-just-a-noise-thats-what-ai-is-doing',
+    title: 'Art Without Emotion Is Just Noise — And That’s What AI Makes',
+    subTitle: 'Apr 28 2025',
+    summary: `Everyone’s talking about how AI is replacing art — but is that really true? Lets  exploring why tools like AI can never replace the soul and emotion of a true artist. From the timeless magic of Spirited Away to the powerful voice of Michael Jackson, this piece challenges the popular belief that art is just about style or technique.
+If you think uploading your selfie to an AI model makes you part of the "new art movement," think again.
+`,
+    imageUrl: 'assets/images/art-emotions.png',
+    bannerImageUrl: 'assets/images/mybots.jpeg',
+    markDownFile:
+      'assets/markdowns/art-without-emotions-is-just-a-noise-thats-what-ai-is-doing.md',
+    date: new Date('April 28 2025'),
+  },
 ];
