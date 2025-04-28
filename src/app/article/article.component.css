@@ -30,7 +30,7 @@ blockquote:after {
 .redirect-menu {
   padding: 1rem 0 0 0;
   color: #151413;
-  /* font-weight: 600; */
+  font-weight: 600;
   width: 90%;
   white-space: nowrap;
   overflow: hidden !important;
