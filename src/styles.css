@@ -4,10 +4,24 @@
   font-family: "Special Elite", cursive;
 } */
 
-@font-face {
+/* @font-face {
   font-family: 'TestTiemposFine';
   src: url('assets/fonts/TestTiemposFine-Light.otf') format('opentype');
   font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'TestTiemposFine';
+  src: url('assets/fonts/Tinos-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TestTiemposFine';
+  src: url('assets/fonts/Tinos-Bold.ttf') format('opentype');
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -28,15 +42,19 @@ body {
 }
 
 h1 {
-  @apply py-4 text-3xl font-semibold;
+  @apply py-4 text-3xl;
 }
 
 h2 {
-  @apply mb-4 text-xl font-bold text-black sm:text-xl;
+  @apply mb-4 text-xl text-black sm:text-xl;
 }
 
 p {
-  @apply mb-8 leading-relaxed;
+  @apply mb-8 leading-relaxed text-lg;
+}
+
+strong {
+  @apply mb-8 leading-relaxed text-lg font-bold;
 }
 
 a {
