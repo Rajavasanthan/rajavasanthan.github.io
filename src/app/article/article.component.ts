@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ArticleService } from '../article.service';
 import { Article } from '../Model/model';
+import { SeoService } from '../seo.service';
 
 @Component({
   selector: 'app-article',
@@ -16,40 +16,39 @@ export class ArticleComponent {
   constructor(
     private activeRouter: ActivatedRoute,
     private articleService: ArticleService,
-    private title: Title,
-    private meta: Meta,
-    private router: Router
+    private router: Router,
+    private seoService: SeoService
   ) {
     this.articleSlug = this.activeRouter.snapshot.params['id'];
 
     this.articleService.eventJson.find((article: any) => {
       if (article.slug === this.articleSlug) {
-        console.log(article);
         this.article = article;
-        this.title.setTitle(`${article.title} - Hello 👋 I am RV`);
-        this.meta.addTag({
-          content: `${article.title} - Hello 👋 I am RV`,
-          property: 'og:title',
+        const url = `https://www.iamrv.pro/article/${article.slug}`;
+        const imageUrl = `https://www.iamrv.pro/${article.imageUrl}`;
+
+        this.seoService.setMetaData({
+          title: `${article.title} - Hello 👋 I am RV`,
+          description: article.summary,
+          image: imageUrl,
+          url: url,
+          type: 'article',
+          publishedDate: article.date.toISOString(),
+          author: 'RV'
         });
-        this.meta.addTag({
-          content: `https://www.iamrv.pro/${article.imageUrl}`,
-          property: 'og:image',
-        });
-        this.meta.addTag({
-          content: `https://www.iamrv.pro/${article.imageUrl}`,
-          property: 'og:image:secure_url',
-        });
-        this.meta.addTag({
-          content: `image/jpeg`,
-          property: 'og:image:type',
-        });
-        this.meta.addTag({
-          content: `400`,
-          property: 'og:image:width',
-        });
-        this.meta.addTag({
-          content: `400`,
-          property: 'og:image:height',
+
+        this.seoService.setJsonLd({
+          '@context': 'https://schema.org',
+          '@type': 'BlogPosting',
+          headline: article.title,
+          image: [imageUrl],
+          datePublished: article.date.toISOString(),
+          dateModified: article.date.toISOString(),
+          author: [{
+            '@type': 'Person',
+            name: 'RV',
+            url: 'https://www.iamrv.pro/'
+          }]
         });
       }
     });

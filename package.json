@@ -10,7 +10,8 @@
     "dev:ssr": "ng run iamrv:serve-ssr",
     "serve:ssr": "node dist/iamrv/server/main.js",
     "build:ssr": "ng build && ng run iamrv:server",
-    "prerender": "ng run iamrv:prerender --routes-file routes.txt"
+    "prerender": "ng run iamrv:prerender --routes-file routes.txt",
+    "generate:sitemap": "node sitemap-generator.js"
   },
   "private": true,
   "dependencies": {

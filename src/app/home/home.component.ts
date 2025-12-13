@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 import { ArticleService } from '../article.service';
+import { SeoService } from '../seo.service';
 
 @Component({
   selector: 'app-home',
@@ -11,34 +11,28 @@ export class HomeComponent {
   eventJson: any;
   constructor(
     private articleService: ArticleService,
-    private title: Title,
-    private meta: Meta
+    private seoService: SeoService
   ) {
-    this.title.setTitle("Hello i am RV - Tech Enthusiast, Entreprenur, Mentor")
-    this.meta.addTag({
-      content: `Hello 👋 i am RV - Tech Enthusiast, Entreprenur, Mentor`,
-      property: 'og:title',
+    this.seoService.setMetaData({
+      title: "Hello i am RV - Tech Enthusiast, Entreprenur, Mentor",
+      description: "Welcome to the world of RV. Explore articles on AI, Technology, and Mentorship.",
+      image: "https://www.iamrv.pro/assets/images/home-page.png",
+      url: "https://www.iamrv.pro/",
+      type: "website"
     });
-    this.meta.addTag({
-      content: `https://www.iamrv.pro/assets/images/home-page.png`,
-      property: 'og:image',
+
+    this.seoService.setJsonLd({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'Hello i am RV',
+      url: 'https://www.iamrv.pro/',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: 'https://www.iamrv.pro/search?q={search_term_string}',
+        'query-input': 'required name=search_term_string'
+      }
     });
-    this.meta.addTag({
-      content: `https://www.iamrv.pro/assets/images/home-page.png`,
-      property: 'og:image:secure_url',
-    });
-    this.meta.addTag({
-      content: `image/jpeg`,
-      property: 'og:image:type',
-    });
-    this.meta.addTag({
-      content: `400`,
-      property: 'og:image:width',
-    });
-    this.meta.addTag({
-      content: `400`,
-      property: 'og:image:height',
-    });
+
     this.eventJson = this.articleService.eventJson;
   }
 }
